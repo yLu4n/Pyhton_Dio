@@ -42,4 +42,15 @@ while True:
             extrato += f"Saque: R$ {valor:.2f}\n"
             numero_saques += 1
         else:
-            print("Operação falhou! O valor informadoé inválido")
+            print("Operação falhou! O valor informado é inválido.")
+
+    elif op == "3":
+        print("\n================== EXTRATO ==================")
+        print("Não foram realizadas movimentações." if not extrato else extrato)
+        print(f"\nSaldo: R$ {saldo:.2f}")
+        print("================================================")
+
+    elif op == "4":
+        break
+    else:
+        print("Operação inválida, por favor digite novamente a operação que deseja realizar.")
