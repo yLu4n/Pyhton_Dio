@@ -1,0 +1,14 @@
+class Estudante:
+    universidade = "UCSal"
+
+    def __init__(self, nome, matricula):
+        self.nome = nome
+        self.matricula = matricula
+    
+
+    def __str__(self):
+        return f"Nome: {self.nome} ({self.matricula}) - {self.universidade}"
+    
+
+pessoa = Estudante("Guilherme", 169812315)
+pessoa_2 = Estudante("Giovanna", 225001155)
