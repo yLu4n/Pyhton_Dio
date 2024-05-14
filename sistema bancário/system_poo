@@ -1,0 +1,35 @@
+from abc import ABC, abstractmethod, abstractproperty
+from datetime import datetime
+
+
+class Conta:
+    def __init__(self, saldo, numero, agencia, cliente, historico):
+        self.saldo = saldo
+        self.numero = numero
+        self.agencia = agencia
+        self.cliente = cliente
+        self.historico = historico
+
+class CC:
+    pass
+
+class Historico:
+    def adicionar_transacao():
+        pass
+
+class Transacao:
+    pass
+
+class Cliente:
+    def realizar_transacao():
+        pass
+
+    def adicionar_conta():
+        pass
+
+class PessoaFisica:
+    def __init__(self, cpf, nome, data_nascimento):
+        self.cpf = cpf
+        self.nome = nome
+        self.data_nascimento = data_nascimento
+
