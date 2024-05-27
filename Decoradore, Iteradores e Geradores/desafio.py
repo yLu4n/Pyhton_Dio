@@ -3,6 +3,16 @@ from datetime import datetime
 import textwrap
 
 
+class ContaIterador:
+    def __init__(self, contas):
+        pass
+
+    def __iter__(self):
+        pass
+
+    def __next__(self):
+        pass
+
 class Cliente:
     def __init__(self, endereco):
         self.endereco = endereco
